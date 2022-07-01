@@ -1,0 +1,5 @@
+diff between process and threads
+race conditions? --> too many operations (!!) // on multi core precessor
+ ---> mutex lock & unlock --> protect a part of code
+ // try to separate creating and joining the th (not the same loop) --> will be one at the time!
+ // th number of processes depends on the numbers of cps cores
